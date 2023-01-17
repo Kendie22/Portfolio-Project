@@ -1,5 +1,5 @@
-const BASE_URL = `http://newsapi.org/v2/everything?q=keyword&sortBy=popularity&apiKey=2ad82d31191e48759f08a1ee26d6afc3`
-const topStoriesUrl = `http://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=2ad82d31191e48759f08a1ee26d6afc3`
+const BASE_URL = `https://newsapi.org/v2/everything?q=keyword&sortBy=popularity&apiKey=2ad82d31191e48759f08a1ee26d6afc3`
+const topStoriesUrl = `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=2ad82d31191e48759f08a1ee26d6afc3`
 
 // accessing image
 const image = document.querySelector(".container", "img")
