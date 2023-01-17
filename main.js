@@ -104,7 +104,7 @@ function createNewsData(result) {
 newsStoriesRightBar.append(newsTitle, imgUpdate, newsStories)
 newsTitle.append(a)
 
-// console.log(updatedNewsLink)
+console.log(updatedNewsLink)
           
 }
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
