@@ -3,7 +3,7 @@ const topStoriesUrl = `https://newsapi.org/v2/top-headlines?sources=bbc-news&api
 
 // accessing image
 const image = document.querySelector(".container", "img")
-const searchResult = document.querySelector(".search-bar")
+const searchResult = document.querySelector(".search")
 //create a variable to contain the form 
 const form = document.querySelector("form");
 // create a variable to contain main element
@@ -11,7 +11,6 @@ const newsStoriesRightBar = document.querySelector('#search-ul');
 // format date to be year- month- date (const date = Date)
 const topStoriesArticle = document.querySelector("#top-stories-id")
 let formattedUrl
-
 // When the user scrolls the page, execute myFunction
 // window.onscroll = function() {scrollHeader()};
 
@@ -30,7 +29,7 @@ function getCurrentApi(event) {
   const newsSearch = `${searchResult.value}`
    formattedUrl = BASE_URL.replace("keyword", newsSearch)
    // add the user an option for a date
-   console.log(formattedUrl)
+   console.log(newsSearch, formattedUrl)
    getNewsApiData(formattedUrl, newsSearch)
   //form.reset()
 }

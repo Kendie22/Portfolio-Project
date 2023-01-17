@@ -206,7 +206,9 @@
   .search-bar input:valid + .search-btn:active {
     transform: translateY(1px);
   }
-  
+  a.second-page {
+    color:#ececec;
+  }
   @media screen and (prefers-color-scheme: dark) {
     body, input {
       color: #f1f1f1;
